@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/inputEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1234567890"
+        />
+    <Button
+        android:id="@+id/insBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INS"
+        />
+    <Button
+        android:id="@+id/delBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DEL"
+        />
+    <Button
+        android:id="@+id/appBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="APP"
+        />
+    <Button
+        android:id="@+id/repBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REP"
+        />
+    <Button
+        android:id="@+id/cleBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CLEAR"
+        />
+
+
+</LinearLayout>

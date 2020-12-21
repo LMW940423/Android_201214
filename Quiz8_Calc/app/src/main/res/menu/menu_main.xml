@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.android.quiz8_calc.MainActivity">
+    <item
+        android:id="@+id/action_menu01"
+        android:icon="@drawable/add"
+        android:orderInCategory="2"
+        android:title="action02"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/action_menu02"
+        android:icon="@drawable/sub"
+        android:orderInCategory="3"
+        android:title="action03"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/menu_01"
+        android:title="MUL"
+        />
+    <item
+        android:id="@+id/menu_02"
+        android:title="DIV"
+        />
+</menu>
