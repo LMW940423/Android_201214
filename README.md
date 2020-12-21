@@ -17,9 +17,6 @@
 
 프로젝트는 메소드로 정리를 해야 편하다!
 
-이메일 인증
-https://smujihoon.tistory.com/96
-
 Adapter View
 Data => Adapter => Adapter View
 
